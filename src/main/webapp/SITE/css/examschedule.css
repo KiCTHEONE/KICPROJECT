@@ -1,0 +1,11 @@
+@charset "UTF-8";
+*{
+    top: 100px;
+}
+.logo, .header_list , .main-tit{
+      /* 드래그 막기 */
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}

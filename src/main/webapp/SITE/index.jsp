@@ -58,13 +58,13 @@
     <div class="infoList">
       <div class="info__wrapper">
         <div class="info current--info">
-          <h1 class="text name">기사</h1>
+          <h1 class="text name">기능사</h1>
           <h4 class="text location"></h4>
           <p class="text description">자세히 보기</p>
         </div>
 
         <div class="info next--info">
-          <h1 class="text name">기능사</h1>
+          <h1 class="text name">기사</h1>
           <h4 class="text location"></h4>
           <p class="text description">자세히 보기</p>
         </div>
