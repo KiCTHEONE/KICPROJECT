@@ -61,7 +61,7 @@
                 <p class="copy">에너지관리</p>
                 <p class="copy">원자력</p>
                 <p class="copy">신재생에너지<br>발전설비</p>
-            </div>c
+            </div>
         </div>
     </main>
 </body>
