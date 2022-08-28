@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    left: 7%;
+    top: 10%;
+}
+
+.container h2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.77rem;
+    color: #414566;
+    font-family: 'Noto Sans KR','S-CoreDream-7','Malgun Gothic','돋움',dotum,sans-serif;
+}
+
+.maptainer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    top: 15%;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(135 137 178 / 20%);
+    overflow: hidden;
+}
+
+.maptainer .bar{
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    background: #465FC6;
+    z-index: 100;
+    /* box-shadow: 0 1px 5px #000; */
+}
+
+.option1{
+    color: #FFF;
+    position: relative;
+    top: 18px;
+    left: 2%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+}
+
+.option2{
+    color: #FFF;
+    position: relative;
+    top: 18px;
+    left: 2%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+}
+.option3{
+    color: #FFF;
+    position: relative;
+    top: 18px;
+    left: 2%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+}
+
+
+.list{
+    position: relative;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: #f4f4f8;
+    z-index: 0;
+    /* box-shadow: 1px 0 5px #000; */
+    z-index: 3;
+}
